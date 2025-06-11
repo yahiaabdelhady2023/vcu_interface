@@ -74,3 +74,15 @@ void MainWindow::on_PreviousPag_clicked()
      ui->stackedWidget->setCurrentIndex(ui->stackedWidget->currentIndex()-1);
 }
 
+
+void MainWindow::on_exitButn_clicked()
+{
+    this->close();
+}
+
+
+void MainWindow::on_set_button_clicked()
+{   QString selected_option=ui->AMI_ComboBox->currentText();
+    ui->set_label->setText(selected_option);
+}
+

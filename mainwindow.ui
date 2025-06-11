@@ -40,30 +40,24 @@
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700;&quot;&gt;Hypermotive&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="set_label">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>230</y>
+        <x>580</x>
+        <y>290</y>
         <width>231</width>
         <height>61</height>
        </rect>
       </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Acceleration&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>520</x>
-        <y>290</y>
-        <width>351</width>
-        <height>61</height>
-       </rect>
+      <property name="styleSheet">
+       <string notr="true">font-size:22pt;
+font-weight: bold;
+text-align: center;
+color:black;
+qproperty-alignment: 'AlignCenter'</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Drive Autonomous&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;Acceleration&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="ASSI_label">
@@ -97,6 +91,25 @@ text-align: center;
     border-radius: 3px;
     padding: 1px 18px 1px 3px;
     min-width: 6em;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>361</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: black;
+color:white;
+border-radius:20px;
+font: 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SET</string>
       </property>
      </widget>
     </widget>
@@ -257,6 +270,25 @@ font: 16pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string>Next Page</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>520</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: black;
+color:white;
+border-radius:20px;
+font: 16pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>╰┈➤ Exit</string>
     </property>
    </widget>
   </widget>
