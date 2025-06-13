@@ -55,6 +55,12 @@ MainWindow::MainWindow(QWidget *parent)
     ui->DataTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->SignalTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
+
+
+
+
+
+
 }
 
 MainWindow::~MainWindow()
@@ -82,7 +88,8 @@ void MainWindow::on_exitButn_clicked()
 
 
 void MainWindow::on_set_button_clicked()
-{   QString selected_option=ui->AMI_ComboBox->currentText();
-    ui->set_label->setText(selected_option);
+{
+    QString selected_option=ui->AMI_ComboBox->currentText();
+    ui->combo_label->setText(selected_option);
 }
 

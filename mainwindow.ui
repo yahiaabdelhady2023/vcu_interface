@@ -14,283 +14,262 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QStackedWidget" name="stackedWidget">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>10</y>
-      <width>1341</width>
-      <height>521</height>
-     </rect>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="page">
-     <widget class="QLabel" name="label_hypermotive">
-      <property name="geometry">
-       <rect>
-        <x>1050</x>
-        <y>30</y>
-        <width>261</width>
-        <height>61</height>
-       </rect>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="3" column="1">
+     <widget class="QPushButton" name="exitButn">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700;&quot;&gt;Hypermotive&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="set_label">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>290</y>
-        <width>231</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font-size:22pt;
-font-weight: bold;
-text-align: center;
-color:black;
-qproperty-alignment: 'AlignCenter'</string>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;Acceleration&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="ASSI_label">
-      <property name="geometry">
-       <rect>
-        <x>520</x>
-        <y>350</y>
-        <width>351</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;AS READY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="AMI_ComboBox">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>40</y>
-        <width>361</width>
-        <height>111</height>
-       </rect>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>100</height>
+       </size>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: black;
 color:white;
-text-align: center;
-
-	    border: 1px solid gray;
-    border-radius: 3px;
-    padding: 1px 18px 1px 3px;
-    min-width: 6em;</string>
+border-radius:40px;
+font: 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>╰┈➤ Exit</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="set_button">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>160</y>
-        <width>361</width>
-        <height>81</height>
-       </rect>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="NextPage">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>100</height>
+       </size>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: black;
 color:white;
-border-radius:20px;
+border-radius:40px;
 font: 16pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
-       <string>SET</string>
+       <string>Next Page</string>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="page_2">
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>1050</x>
-        <y>30</y>
-        <width>261</width>
-        <height>61</height>
-       </rect>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="PreviousPag">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700;&quot;&gt;Hypermotive&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>80</height>
+       </size>
       </property>
-     </widget>
-     <widget class="QLabel" name="traction_battery_data">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>40</y>
-        <width>401</width>
-        <height>61</height>
-       </rect>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>100</height>
+       </size>
       </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Diagnostic Data&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QTableWidget" name="DataTable">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>121</y>
-        <width>1301</width>
-        <height>151</height>
-       </rect>
+      <property name="autoFillBackground">
+       <bool>false</bool>
       </property>
       <property name="styleSheet">
-       <string notr="true">QTableWidget::item {
-    text-align: center;
-font: 14pt &quot;Segoe UI&quot;;
-}
-QTableWidget{
-    text-align: center;
-font: 14pt &quot;Segoe UI&quot;;
-
-}
-QHeaderView::section{
-background-color:black;
+       <string notr="true">background-color: black;
 color:white;
-font: 14pt &quot;Segoe UI&quot;;
-border:none;
-}
-
-</string>
+border-radius:40px;
+font: 16pt &quot;Segoe UI&quot;;</string>
       </property>
-      <column>
-       <property name="text">
-        <string>Data Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Value</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Unit</string>
-       </property>
-      </column>
+      <property name="text">
+       <string>Previous Page</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
      </widget>
-     <widget class="QTableWidget" name="SignalTable">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>290</y>
-        <width>1281</width>
-        <height>151</height>
-       </rect>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>1</number>
       </property>
-      <property name="styleSheet">
-       <string notr="true">QTableWidget::item {
-    text-align: center;
-font: 14pt &quot;Segoe UI&quot;;
-}
-QTableWidget{
-    text-align: center;
-font: 14pt &quot;Segoe UI&quot;;
-
-}
-QHeaderView::section{
-background-color:black;
+      <widget class="QWidget" name="page_7">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QComboBox" name="AMI_ComboBox">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: black;
 color:white;
-font: 14pt &quot;Segoe UI&quot;;
-border:none;
-}
+border-radius:40px;
+font: 16pt &quot;Segoe UI&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="set_button">
+          <property name="minimumSize">
+           <size>
+            <width>678</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>678</width>
+            <height>36</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: black;
+color:white;
+border-radius:40px;
+font: 16pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>SET</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">font-size:30px;
+qproperty-alignment: AlignCenter;
 </string>
-      </property>
-      <column>
-       <property name="text">
-        <string>Signal Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Status</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Signal Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Status</string>
-       </property>
-      </column>
+          </property>
+          <property name="text">
+           <string>UWE AI Society</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="2">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="ASSI_label">
+            <property name="styleSheet">
+             <string notr="true">font-size:20px;
+qproperty-alignment: AlignCenter;
+</string>
+            </property>
+            <property name="text">
+             <string>TEST_vALUE</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="combo_label">
+            <property name="styleSheet">
+             <string notr="true">font-size:20px;
+qproperty-alignment: AlignCenter;
+</string>
+            </property>
+            <property name="text">
+             <string>AS_TEST</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_8">
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>1371</width>
+          <height>671</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="sizeConstraint">
+          <enum>QLayout::SizeConstraint::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="UWE_AI_logo">
+           <property name="styleSheet">
+            <string notr="true">font-size:30px;
+qproperty-alignment: AlignCenter;</string>
+           </property>
+           <property name="text">
+            <string>UWE AI Society</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="SignalTable">
+           <property name="styleSheet">
+            <string notr="true">QHeaderView::section { background-color: black; color: white; }</string>
+           </property>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="DataTable">
+           <property name="styleSheet">
+            <string notr="true">QHeaderView::section { background-color: black; color: white; }</string>
+           </property>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>New Column</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
      </widget>
-    </widget>
-   </widget>
-   <widget class="QPushButton" name="PreviousPag">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>520</y>
-      <width>201</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: black;
-color:white;
-border-radius:20px;
-font: 16pt &quot;Segoe UI&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Previous Page</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="NextPage">
-    <property name="geometry">
-     <rect>
-      <x>1140</x>
-      <y>520</y>
-      <width>201</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: black;
-color:white;
-border-radius:20px;
-font: 16pt &quot;Segoe UI&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Next Page</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="exitButn">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>520</y>
-      <width>291</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: black;
-color:white;
-border-radius:20px;
-font: 16pt &quot;Segoe UI&quot;;</string>
-    </property>
-    <property name="text">
-     <string>╰┈➤ Exit</string>
-    </property>
-   </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

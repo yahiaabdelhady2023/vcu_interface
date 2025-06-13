@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>uwe_ai_logo.jpeg</file>
+    </qresource>
+</RCC>
