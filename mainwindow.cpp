@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QLineEdit>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -27,8 +28,11 @@ MainWindow::MainWindow(QWidget *parent)
         QModelIndex index = ui->AMI_ComboBox->model()->index(i,0);
         ui->AMI_ComboBox->model()->setData(index, QSize(100, 100), Qt::SizeHintRole);
     }
-
-
+    // ui->AMI_ComboBox->setEditable(true);
+    // ui->AMI_ComboBox->lineEdit()->setAlignment(Qt::AlignCenter);
+    // ui->AMI_ComboBox->lineEdit()->setReadOnly(true);
+    // QFont font("Segoe UI", 18);
+    // ui->AMI_ComboBox->lineEdit()->setFont(font);
 
 
     int Row =ui->DataTable->rowCount();
