@@ -15,10 +15,10 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_5">
-    <item row="3" column="1">
+    <item row="2" column="1">
      <widget class="QPushButton" name="exitButn">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
@@ -26,8 +26,11 @@
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>100</height>
+        <height>40</height>
        </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: black;
@@ -40,10 +43,10 @@ font: 16pt &quot;Segoe UI&quot;;</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="0">
+    <item row="2" column="0">
      <widget class="QPushButton" name="NextPage">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
@@ -51,7 +54,7 @@ font: 16pt &quot;Segoe UI&quot;;</string>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>100</height>
+        <height>40</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -65,50 +68,10 @@ font: 16pt &quot;Segoe UI&quot;;</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="2">
-     <widget class="QPushButton" name="PreviousPag">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>80</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: black;
-color:white;
-border-radius:40px;
-font: 16pt &quot;Segoe UI&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Previous Page</string>
-      </property>
-      <property name="default">
-       <bool>false</bool>
-      </property>
-      <property name="flat">
-       <bool>false</bool>
-      </property>
-     </widget>
-    </item>
     <item row="0" column="0" colspan="3">
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page_7">
        <layout class="QGridLayout" name="gridLayout_6">
@@ -170,6 +133,12 @@ qproperty-alignment: AlignCenter;
          <layout class="QVBoxLayout" name="verticalLayout_5">
           <item>
            <widget class="QLabel" name="ASSI_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-size:20px;
 qproperty-alignment: AlignCenter;
@@ -182,6 +151,12 @@ qproperty-alignment: AlignCenter;
           </item>
           <item>
            <widget class="QLabel" name="combo_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-size:20px;
 qproperty-alignment: AlignCenter;
@@ -273,6 +248,19 @@ qproperty-alignment: AlignCenter;</string>
         </item>
        </layout>
       </widget>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="PreviousPage">
+      <property name="styleSheet">
+       <string notr="true">background-color: black;
+color:white;
+border-radius:40px;
+font: 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Previous Page</string>
+      </property>
      </widget>
     </item>
    </layout>

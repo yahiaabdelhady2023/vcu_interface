@@ -26,6 +26,8 @@ private slots:
 
     void on_set_button_clicked();
 
+    void on_PreviousPage_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

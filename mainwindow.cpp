@@ -97,3 +97,9 @@ void MainWindow::on_set_button_clicked()
     ui->combo_label->setText(selected_option);
 }
 
+
+void MainWindow::on_PreviousPage_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(ui->stackedWidget->currentIndex()-1);
+}
+
